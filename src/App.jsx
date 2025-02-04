@@ -15,7 +15,7 @@ function App() {
   ])
   const [inputValue, setInputValue] = useState('')
   const handleChange = (event) => {
-    setInputValue(event.target.value);  // به‌روزرسانی مقدار اینپوت
+    setInputValue(event.target.value);
   };
 
   const removeHnadler = (itemToRemove) => {
